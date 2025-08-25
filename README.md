@@ -19,3 +19,8 @@ The `modbus_demo` integration is reponsible for:
 
 - provide a config_flow which does the necessary things like gathering connection details, checking for uniqueness between config entries, etc.
 - defining entities where the `EntityDescription` contains the fields defined in [`SimpleModbusEntityDescription`](modbus_base/entity.py#L34)
+
+
+## TODO's
+
+[ ] Create an example of a complex entity which queries multiple non-consecutive registers
